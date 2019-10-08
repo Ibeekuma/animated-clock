@@ -1,6 +1,7 @@
 html {
   background-color: #000;
 }
+
 .clock-face {
   height: 300px;
   margin: 50px auto;
@@ -38,4 +39,8 @@ html {
     transform: rotate(360deg);
   }
 
+}
+
+.hand-hour {
+  animation: hand-rotate 6s linear infinite;
 }
